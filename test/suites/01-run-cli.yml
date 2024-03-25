@@ -2,8 +2,8 @@
 # Check Venom documentation for more information : https://github.com/ovh/venom
 name: run cli
 testcases:
-  - name: no arguments
+  - name: help
     steps:
-      - script: dam
+      - script: dam -h
         assertions:
           - result.code ShouldEqual 0
