@@ -84,7 +84,7 @@ func (d *Dam) Add(data []byte) error {
 		return fmt.Errorf("%w", err)
 	}
 
-	d.buffer <- data
+	d.buffer <- append(make([]byte, 0, len(data)), data...)
 
 	return nil
 }

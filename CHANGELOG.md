@@ -14,6 +14,10 @@ Types of changes
 - `Fixed` for any bug fixes.
 - `Security` in case of vulnerabilities.
 
+## [0.1.1]
+
+- `Fixed` major bug in buffer reuse
+
 ## [0.1.0]
 
 - `Added` initial version
