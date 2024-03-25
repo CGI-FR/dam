@@ -1,4 +1,4 @@
-module github.com/adrienaury/go-template
+module github.com/cgi-fr/dam
 
 go 1.21
 
